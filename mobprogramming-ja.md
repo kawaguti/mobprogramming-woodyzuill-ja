@@ -511,3 +511,6 @@ Author:
 1. [Woody Zuill](https://www.agilealliance.org/author/5052028)
 
 July 2014, Agile2014 Conference
+
+
+※本文書は著者であるWoody Zuill氏の許諾を得て行いました。
