@@ -23,16 +23,6 @@ Conversion notes:
 ----->
 
 
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 3.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
 
 ## 
 This is a translated article. You can access the original here:   \
@@ -59,11 +49,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto \
 ## 
 
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/fig1-mob-programming.jpg "image_tooltip")
-
 
 
 [Mob programming](https://www.agilealliance.org/glossary/mob-programming/) is a software development approach where the whole team works on the same thing, at the same time, in the same space, and at the same computer. This is similar to [pair programming](https://www.agilealliance.org/glossary/pairing/) [PAIR], where two people sit at the same computer and collaborate on the same code at the same time. With Mob Programming we extend the collaboration to everyone on the team, while still using a single computer for writing the code. \
@@ -145,9 +131,6 @@ Please refer to Fig. 1 to get an idea of our basic floor plan. Our main work are
 基本的な間取り図は、図1を参照してください。私たちのメインの作業エリアは、標準的なキュービクルのパーティションを使用して構成されており、約16ft x 18ft(4.9m x 5.5m)の大きさです。チームメンバー全員がコードを書く際に使用するコンピュータが1台あります。2台のプロジェクターで「デュアルモニター」を壁に投影し、2台のキーボードでチームメンバーの好みに合わせて選択できるようにしています。壁の周りには、数台のローリングホワイトボードとフリップチャート用のエリアがあります。コーディングをしていない時やチームのメインコンピュータを使用していない時には、個別の机や他のコンピュータを使用することができます。
 
 
-
-
-
 ![alt_text](images/fig1-early-whiteboard.jpg "image_tooltip")
  \
 _Figure 1 – Early Whiteboard Drawing of our floorplan once we had a permanent work area \
@@ -170,11 +153,6 @@ We also have other desktop and laptop computers available that we use for resear
 ### 
 **4.2 Projectors \
 4.2 プロジェクター**
-
-
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/fig2-dual-projected-monitors.jpg "image_tooltip")
