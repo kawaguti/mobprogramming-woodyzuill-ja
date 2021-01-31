@@ -62,7 +62,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto \
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image1.jpg "image_tooltip")
+![alt_text](images/fig1-mob-programming.jpg "image_tooltip")
 
 
 
@@ -147,10 +147,8 @@ Please refer to Fig. 1 to get an idea of our basic floor plan. Our main work are
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-![alt_text](images/image2.jpg "image_tooltip")
+![alt_text](images/fig1-early-whiteboard.jpg "image_tooltip")
  \
 _Figure 1 – Early Whiteboard Drawing of our floorplan once we had a permanent work area \
 図1 - 恒久的な作業エリアができた後の初期のホワイトボード図面_
@@ -179,7 +177,7 @@ We also have other desktop and laptop computers available that we use for resear
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-![alt_text](images/image3.jpg "image_tooltip")
+![alt_text](images/fig2-dual-projected-monitors.jpg "image_tooltip")
 ** \
 _Figure 2 – Dual projected monitors. \
 図2 - デュアルプロジェクションモニター_**
