@@ -25,7 +25,7 @@ Conversion notes:
 
 
 ## 
-This is a translated article. You can access the original here:   \
+This is a translated article. You can access the original here:  
 [https://www.agilealliance.org/resources/experience-reports/mob-programming-agile2014/](https://www.agilealliance.org/resources/experience-reports/mob-programming-agile2014/) \
  \
 
@@ -37,16 +37,14 @@ Mob Programming – A Whole Team Approach by Woody Zuill \
 
 
 # 
-Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto \
+Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 
-## 
-**1. INTRODUCTION \
-1. はじめに**
 
+<!-- ## 1. INTRODUCTION -->
+## 1. はじめに
 
-## 
 
 
 ![alt_text](images/fig1-mob-programming.jpg "image_tooltip")
