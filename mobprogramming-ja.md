@@ -209,116 +209,107 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 私たちは、Llewellyn Falco 氏の「強い」ペア・プログラミング・スタイルから発展した ドライバー/ナビゲーター [DRVR]パターンを使用しています。基本的なルールはこうです：「アイデアが頭からコンピュータに入力されるためには、他の誰かの手を通さなければならない」。
 
 
-There are two roles: The Driver, and the Navigator. The Driver sits at the keyboard and types in the code. The Navigators discuss the idea being coded and guide the Driver in creating the code. This means the Driver has a much more mechanical job than when coding solo. The Driver listens to the Navigators, and must trust the Navigators. The Driver is focused on the typing/coding. The Navigators are expressing their ideas to the Driver in a slow, metered approach so the Driver only has to focus on the next thing to type at any given time. \
+<!-- There are two roles: The Driver, and the Navigator. The Driver sits at the keyboard and types in the code. The Navigators discuss the idea being coded and guide the Driver in creating the code. This means the Driver has a much more mechanical job than when coding solo. The Driver listens to the Navigators, and must trust the Navigators. The Driver is focused on the typing/coding. The Navigators are expressing their ideas to the Driver in a slow, metered approach so the Driver only has to focus on the next thing to type at any given time. \ -->
 これには2つの役割があります：ドライバーとナビゲーターです。ドライバーはキーボードの前に座り、コードを入力します。ナビゲーターは、これからコードになるアイデアを議論し、ドライバーをガイドしてコードを作成します。これは、ドライバーがソロでコーディングする場合よりもはるかに機械的な仕事をしていることを意味します。ドライバーはナビゲーターの話に耳を傾け、ナビゲーターを信頼しなければなりません。ドライバーはタイピング/コーディングに集中しています。ナビゲーターは、ゆっくりとしたペースでドライバーに自分たちのアイデアを伝えているので、ドライバーはいつでも次のタイピングに集中することができます。
 
 
-While expressing these things to the Driver out loud they are also being expressed to the rest of the people on the team. We discuss and work out the possibilities verbally and at the white board so everyone is gaining a full understanding of the idea. This creates a sort of collective intelligence of the Navigators and the team as a whole. \
+<!-- While expressing these things to the Driver out loud they are also being expressed to the rest of the people on the team. We discuss and work out the possibilities verbally and at the white board so everyone is gaining a full understanding of the idea. This creates a sort of collective intelligence of the Navigators and the team as a whole. \ -->
 これらのことをドライバーに声に出して表現すると同時に、チームの他の人にも表現しています。口頭やホワイトボードで可能性を議論し、考えることで、全員がアイデアを完全に理解することができます。これにより、ナビゲーターとチーム全体の集合知が生まれます。
 
 
-We use a timed rotation, where each team member works at the keyboard as the Driver for a short period of time (typically 10 to 15 minutes). We use a timer, and the current driver hands the keyboard off to the next driver when their turn ends (explained below in section 5.3). \
+<!-- We use a timed rotation, where each team member works at the keyboard as the Driver for a short period of time (typically 10 to 15 minutes). We use a timer, and the current driver hands the keyboard off to the next driver when their turn ends (explained below in section 5.3). \ -->
 私たちは時間制のローテーションを採用しており、各チームメンバーが短時間(通常10分から15分)ドライバーとしてキーボードの前で作業します。タイマーを使用して、現在のドライバーが自分の番が終わると次のドライバーにキーボードを渡します(5.3項で説明します)。
 
 
-It is important for the Navigators to speak at the highest level of abstraction that the Driver (and the rest of the team) is able to digest at the moment. Sometimes this can be at a very high level when the Driver understands the concept to be coded and can proceed without detailed instructions. It can also be at a very detailed level if necessary, even at the level of keystroke instructions when needed. This will change from person to person, and will also change for the same person throughout the day depending on the idea being worked on, and the ability of the Driver to understand the instructions. \
+<!-- It is important for the Navigators to speak at the highest level of abstraction that the Driver (and the rest of the team) is able to digest at the moment. Sometimes this can be at a very high level when the Driver understands the concept to be coded and can proceed without detailed instructions. It can also be at a very detailed level if necessary, even at the level of keystroke instructions when needed. This will change from person to person, and will also change for the same person throughout the day depending on the idea being worked on, and the ability of the Driver to understand the instructions. \ -->
 ナビゲーターは、ドライバー（および他のチームのメンバー）がその時点で理解できる最高レベルの抽象度で話すことが重要です。ドライバーがコード化すべきコンセプトを理解していて、詳細な指示がなくても進めることができる場合には、非常に高いレベルであることもあります。また、必要に応じてキー操作の指示が必要な場合には、非常に細かいレベルになることもあります。これは人によっても変わってきますし、同じ人でも取り組んでいるアイデアによって、またドライバーの指示を理解する能力によっても変わってきます。
 
 
-I’ve found the Driver/Navigator approach to be very powerful. To follow this approach we must become good at communicating and discussing each idea with another person before it can become part of the code base. We automatically get continuous discussion and review of the problem, the solution design, and the code. Everyone stays involved and informed. \
+<!-- I’ve found the Driver/Navigator approach to be very powerful. To follow this approach we must become good at communicating and discussing each idea with another person before it can become part of the code base. We automatically get continuous discussion and review of the problem, the solution design, and the code. Everyone stays involved and informed. \ -->
 私は、ドライバー/ナビゲーターのアプローチが非常に強力であることを発見しました。このアプローチに従うためには、コードベースの一部になる前に、それぞれのアイデアを別の人とコミュニケーションを取り、議論することが得意にならなければなりません。問題や、解決策の設計、またコード自体についての継続的な議論とレビューが自動的に行われます。誰もが参加し、情報を得ることができます。
 
 
-### 
-**5.3 Driver Rotation using a Timer \
-5.3 タイマによるドライバーのローテーション**
+<!-- ### 5.3 Driver Rotation using a Timer \ -->
+### 5.3 タイマによるドライバーのローテーション
 
 
-We rotate the Driver every 15 minutes, so no one is attached to the keyboard for very long. Using a randomized list of who is working that day, we “rotate” through the list: Every 15 minutes the current Driver moves away from the keyboard and joins the Navigators and the next person on the list moves to the keyboard to start typing. As the day goes along whenever we get to the bottom of the list we just start over again at the top. We’ve written a little timer application that takes care of this for us, and actually blanks out the screens when the Driver’s time is up. While we typically use a 15 minute rotation, we shorten the duration at times, and suggest that those just starting out with Mob Programming might want to use a much shorter setting. When we first started we used a 4 or 5 minute timer, and eventually increased it as our skills and comfort level with this practice matured. \
+<!-- We rotate the Driver every 15 minutes, so no one is attached to the keyboard for very long. Using a randomized list of who is working that day, we “rotate” through the list: Every 15 minutes the current Driver moves away from the keyboard and joins the Navigators and the next person on the list moves to the keyboard to start typing. As the day goes along whenever we get to the bottom of the list we just start over again at the top. We’ve written a little timer application that takes care of this for us, and actually blanks out the screens when the Driver’s time is up. While we typically use a 15 minute rotation, we shorten the duration at times, and suggest that those just starting out with Mob Programming might want to use a much shorter setting. When we first started we used a 4 or 5 minute timer, and eventually increased it as our skills and comfort level with this practice matured. \ -->
 私たちは15分ごとにドライバーを交代するので、誰も長時間キーボードにかじりついていません。その日の作業者のランダムなリストを使って、「ローテーション」します。15分ごとに現在のドライバーがキーボードから離れてナビゲーターと合流し、リストの次の人がキーボードに移動してタイピングを開始します。時間が経つにつれ、リストの一番下に到達したら、一番上から再開します。私たちは、これを代行してくれる小さなタイマーアプリケーションを作りました。ドライバーの時間が終わると、画面をブランクにします。私たちは通常15分ローテーションを使っており、時々この時間を短くしたりしますが、モブプログラミングを初めたばかりの人はもう少し短く設定したほうが良いかもしれません。私たちが最初に始めたときは4~5分間のタイマーを使っていましたが、私たちのスキルとこのプラクティスの快適さのレベルが成熟していくにつれて、時間を増やしていきました。
 
 
-### 
-**5.4 Telephone and Email \
-5.4 電話とEメール**
+<!-- ### 5.4 Telephone and Email \ -->
+### 5.4 電話とEメール
 
 
-All team related telephone calls and email communications are done as a team. We sign our emails as “The Dev Team” and have a group email address. When we make or take phone calls as a team, we mention to the other party that they are on a speakerphone call: “Hi Mary, this is Woody on speaker phone with a few of the other team members here”. \
+<!-- All team related telephone calls and email communications are done as a team. We sign our emails as “The Dev Team” and have a group email address. When we make or take phone calls as a team, we mention to the other party that they are on a speakerphone call: “Hi Mary, this is Woody on speaker phone with a few of the other team members here”. \ -->
 チーム関連の電話やメールでのやりとりはすべてチームで行います。メールには「開発チーム」と署名し、グループのメールアドレスを使用します。チームで電話をかけたり、電話に出たりするときは、スピーカーフォンで通話中であることを相手に伝えます。「やあ、メアリー、ウッディです。スピーカーフォンで他のチームメンバーと一緒に聞いています。」
 
 
-One reason we use this practice is so everyone on the team is aware of all team-­‐related interactions with people from outside the team. This solves some of the common silo problems which occur when there is only one person who is a point of contact. When that person is not available communications break down until they return. Additionally, misunderstandings are less common as the one team members will catch things that others have missed. \
+<!-- One reason we use this practice is so everyone on the team is aware of all team-­‐related interactions with people from outside the team. This solves some of the common silo problems which occur when there is only one person who is a point of contact. When that person is not available communications break down until they return. Additionally, misunderstandings are less common as the one team members will catch things that others have missed. \ -->
 私たちがこのプラクティスを使う理由の一つは、チーム内の全員が、チーム外の人との(チーム関連の)やりとりについて、すべて把握できるようにするためです。これにより、一般的にサイロで起こる問題の一つ、単一の連絡先問題が解決できます。担当が不在の間、当人が戻るまでコミュニケーションが切れてしまう問題です。しかも、勘違いも少なくなります。他の人が見落としていたことをチームメンバーがキャッチするからです。
 
 
-## 
-**6. IMPORTANCE OF RETROSPECTIVES [RETR], AND TAKING ACTION \
-6. レトロスペクティブ[RETR]の重要性と、行動を起こすこと**
+<!-- ## 6. IMPORTANCE OF RETROSPECTIVES [RETR], AND TAKING ACTION \ -->
+## 6. レトロスペクティブ[RETR]の重要性と、行動を起こすこと
 
 
-This is one of the Agile Principles: “At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.” [APRN] We have taken this to heart and found it brings a great deal of value to us. We frequently evaluate what is working for us, what problems we might be having, and how we can improve on things. An important part of the Principle is to “tune and adjust”. By simply paying attention and then “tuning and adjusting” we have been able to choose actions that have led to tremendous improvements and to the discovery of our Mob Programming style itself. \
+<!-- This is one of the Agile Principles: “At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.” [APRN] We have taken this to heart and found it brings a great deal of value to us. We frequently evaluate what is working for us, what problems we might be having, and how we can improve on things. An important part of the Principle is to “tune and adjust”. By simply paying attention and then “tuning and adjusting” we have been able to choose actions that have led to tremendous improvements and to the discovery of our Mob Programming style itself. \ -->
 これはアジャイル原則の一つです。「チームがもっと効率を高めることができるかを定期的に振り返り、それに基づいて自分たちのやり方を最適に調整します。」[APRN] 私たちはこれを心に留めており、私たちに多くの価値をもたらしてくれることがわかりました。私たちは頻繁に、何がうまくいっているのか、私たちが抱えているかもしれない問題は何か、どのように物事を改善することができるかを評価します。この原則の重要な部分は、「調整とチューニング」することです。シンプルに注意を払い、「調整とチューニング」することによって、私たちは途方もない改善と私たちのモブプログラミングのスタイル自体の発見につながった行動を選択することができました。
 
 
-We follow a typical retrospectives pattern for most of the retrospectives we hold. We set aside a half hour to an hour to reflect on the last week or two. In these sessions we gather information on sticky notes, do affinity groupings, dot-­‐voting, and have conversations about the things we have observed and new things we’d like to try [RETR]. We have used a number of techniques, but most commonly we do some version of the “What is working”, “What needs help”, “What we want less of” pattern where we gather ideas about each of these headings and explore the things that we find are most meaningful to the team. \
+<!-- We follow a typical retrospectives pattern for most of the retrospectives we hold. We set aside a half hour to an hour to reflect on the last week or two. In these sessions we gather information on sticky notes, do affinity groupings, dot-­‐voting, and have conversations about the things we have observed and new things we’d like to try [RETR]. We have used a number of techniques, but most commonly we do some version of the “What is working”, “What needs help”, “What we want less of” pattern where we gather ideas about each of these headings and explore the things that we find are most meaningful to the team. \ -->
 私たちが開催するレトロスペクティブのほとんどは、典型的なレトロスペクティブのパターンに従っています。30分から1時間ほどの時間を設けて、ここ1、2週間の振り返りをします。このセッションでは、付箋紙に情報を集め、類似のものをまとめたり、ドット投票をしたり、観察したことや試してみたいことについて会話をしたりします[RETR]。いくつかのテクニックを使いましたが、最も一般的なのは、「何がうまくいっているか」「何が助けを必要としているか」「何が足りないか」のパターンのいくつかのバージョンを行い、それぞれの見出しについてのアイデアを集め、チームにとって最も意味のあることを探ります。
 
 
-We always look for “action items”, and limit ourselves to only one or two we can use to “tune and adjust” our process. We have found that having more than one or two action items is almost always counter-­‐productive. We take “baby steps”, make sure we try changes we think will be useful, and then reflect, tune and adjust. \
+<!-- We always look for “action items”, and limit ourselves to only one or two we can use to “tune and adjust” our process. We have found that having more than one or two action items is almost always counter-­‐productive. We take “baby steps”, make sure we try changes we think will be useful, and then reflect, tune and adjust. \ -->
 私たちは「アクションアイテム」を常に探しています。アクションアイテムは自分たちのプロセスを「調整とチューニング」するものですが、私たちは行うアクションアイテムを１つか２つだけに絞っています。私たちは、１つまたは２つを超えるアクションアイテムを持つと、ほとんど常に逆効果になることに気が付きました。私たちは「ベイビーステップ」を採用しています。つまり、私たちが有用であると思う変更を試してみて、その後反映し、調整し、チューニングしていることを確認しながら進めます。
 
 
-### 
-**6.1 We also often do Just-­‐In-­‐Time Ad-­‐hoc retrospectives \
-6.1 ジャストインタイムのアドホックなレトロスペクティブも頻繁に行う**
+<!-- ### 6.1 We also often do Just-­‐In-­‐Time Ad-­‐hoc retrospectives -->
+### 6.1 ジャストインタイムのアドホックなレトロスペクティブも頻繁に行う
 
 
-Besides scheduled retrospectives, we hold retrospectives at any time we feel it will be helpful to us. When anyone on the team notices something they feel we should reflect on, we simply go ahead and do it while the experience is fresh. These are usually short and focused on one item. The point isn’t always to “fix things”. \
+<!-- Besides scheduled retrospectives, we hold retrospectives at any time we feel it will be helpful to us. When anyone on the team notices something they feel we should reflect on, we simply go ahead and do it while the experience is fresh. These are usually short and focused on one item. The point isn’t always to “fix things”. \ -->
 定期的なふりかえり以外にも、私たちはいつでもふりかえりを行い、それが役に立つと感じたらいつでもふりかえりを行います。チームの誰もが、私たちが反省すべきだと思う何かに気付いたら、経験がフレッシュなうちに素直に振り返ります。たいていは一つの事柄に焦点をあてた、短いものになります。重要なのは、常に「修正する」ことではありません。
 
 
-Besides noticing problems, it is just as likely that someone will have noticed something good that just happened, or even something we found interesting. If there is an action item we think we should take on we make a notecard and put it up on our board along with our other action items. \
+<!-- Besides noticing problems, it is just as likely that someone will have noticed something good that just happened, or even something we found interesting. If there is an action item we think we should take on we make a notecard and put it up on our board along with our other action items. \ -->
 問題点に気づくだけでなく、誰かが何か良いことに気づいたり、私たちが面白いと思ったことに気づく可能性もあります。何か行動を起こすべきだと思う項目があれば、ノートカードを作り、他のアクションアイテムと一緒にボードに貼っています。
 
 
-### 
-**6.2 Lean Coffee ™ [LCOF] \
-6.2 リーンコーヒー (Lean Coffee ™) [LCOF]**
+<!-- ### 6.2 Lean Coffee ™ [LCOF] \ -->
+### 6.2 リーンコーヒー (Lean Coffee ™) [LCOF]
 
 
-We often use the Lean Coffee method for some of our retrospectives. Lean Coffee™ is an easy way to keep discussions on point and moving rapidly. The basic premise is that those attending determine the agenda at the start of the meeting, and each topic discussed is time-­‐boxed to 5 or so minutes. This keeps us focused and keeps the conversation from running on and on. We’ve found this to be a very effective approach to covering a lot of topics in a limited amount of time. We typically spend 45 minutes in a Lean Coffee™ session, and strive to find an action item for anything we discuss that we feel requires further action. By applying our principle of treating each other with kindness, consideration, and respect our Lean Coffee sessions are always meaningful to us. \
+<!-- We often use the Lean Coffee method for some of our retrospectives. Lean Coffee™ is an easy way to keep discussions on point and moving rapidly. The basic premise is that those attending determine the agenda at the start of the meeting, and each topic discussed is time-­‐boxed to 5 or so minutes. This keeps us focused and keeps the conversation from running on and on. We’ve found this to be a very effective approach to covering a lot of topics in a limited amount of time. We typically spend 45 minutes in a Lean Coffee™ session, and strive to find an action item for anything we discuss that we feel requires further action. By applying our principle of treating each other with kindness, consideration, and respect our Lean Coffee sessions are always meaningful to us. \ -->
 私たちは、ふりかえりでリーンコーヒー(Lean Coffee™)の手法をよく使います。リーンコーヒーは、議論のポイントを維持し、迅速に進めるための簡単な方法です。大前提として、会議の開始時に出席者が議題を決定し、議論される各トピックは5分程度の時間枠に収まるようにします。これにより、私たちは集中力を維持し、会話が延々と続くことを防ぐことができます。限られた時間の中で多くのトピックをカバーするには、これが非常に効果的なアプローチであることがわかりました。Lean Coffee™のセッションでは、通常45分を費やし、さらに行動を起こす必要があると感じた話題については、アクションアイテムを見つけるように努めています。親切、思いやり、敬意を持ってお互いに接するという原則を適用することで、リーンコーヒーのセッションは私たちにとって常に有意義なものとなっています。
 
 
-### 
-**6.3 “Turn Up the Good” [TURN] \
-6.3 「常に、よりよく」(Turn Up the Good) [TURN]**
+<!-- ### 6.3 “Turn Up the Good” [TURN] \ -->
+### 6.3 「常に、よりよく」(Turn Up the Good) [TURN]
 
 
-We have found that we get a great deal of value from recognizing things that are going well and finding ways to increase the good from those things. We call this “turn up the good”. While it can be useful to identify problems and try to fix them, we find we get even more value from finding ways to increase the things that are going well. \
+<!-- We have found that we get a great deal of value from recognizing things that are going well and finding ways to increase the good from those things. We call this “turn up the good”. While it can be useful to identify problems and try to fix them, we find we get even more value from finding ways to increase the things that are going well. \ -->
 私たちは、うまくいっていることを認識すること、またさらに良くする方法を探すことによって、多くの価値を得ることができると発見しました。私たちはこれを「いいこと探し(Turn Up the Good)」と呼んでいます。問題を特定し、それを解決しようとすることは有用ですが、うまくいっていることを増やす方法を見つけることで、さらに多くの価値を得ることができることがわかりました。
 
 
-### 
-**6.4 Taking Action \
-6.4 行動を起こす**
+<!-- ### 6.4 Taking Action  -->
+### 6.4 行動を起こす
 
 
-To get any real value from reflecting and holding retrospectives we need to take action. We always discuss possible action items, and choose a few to try as we go forward. Some action items have good results, some don’t. We pay attention to these results, reflect on them, and tune and adjust over time. \
+<!-- To get any real value from reflecting and holding retrospectives we need to take action. We always discuss possible action items, and choose a few to try as we go forward. Some action items have good results, some don’t. We pay attention to these results, reflect on them, and tune and adjust over time. \ -->
 ふりかえりやレトロスペクティブから真の価値を得るためには、行動を起こす必要があります。私たちは常に可能性のあるアクションアイテムを話し合い、いくつかを選択して、進めるようにしています。アクションアイテムの中には、良い結果が得られるものもあれば、そうでないものもあります。私たちは、これらの結果に注意を払い、反省し、時間をかけて調整し、適応していきます。
 
 
-## 
-**7. FADING PROBLEMS [FADE] \
-7. 問題のフェードアウト [FADE]**
+<!-- ## 7. FADING PROBLEMS [FADE]  -->
+## 7. 問題のフェードアウト [FADE]
 
 
- \
-After doing Mob Programming for a while we noticed that many of the problems we had previously faced were no longer affecting us. While we hadn’t directly attempted to solve these problems we noticed they were simply fading away. \
+<!-- After doing Mob Programming for a while we noticed that many of the problems we had previously faced were no longer affecting us. While we hadn’t directly attempted to solve these problems we noticed they were simply fading away. \ -->
 しばらくモブプログラミングをやっていると、以前に直面していた問題の多くが、もはや自分たちに影響を与えていないことに気がつきました。これらの問題を直接解決しようとしたわけではありませんでしたが、私たちはそれらの問題が消えていくことに気がつきました。
 
 
-We listed each of these “fading problems” and ended up with a list of many specific problems we were previously having and were either no longer affecting us, or had become much less a problem for us. While the specific problems will likely be different from company to company, we found these problems can be grouped into several categories. A few of the main categories are counterproductive communications, decision making dysfunctions, the waste of doing more than what is barely sufficient, the debilitating disease of technical debt, and the burden and associated waste of heavy management techniques (estimating, prioritizing, scheduling, queuing, performance reviews, etc.). Other problem categories include the loss of focus and effectiveness caused by thrashing of programmers through unnecessary task switching and interruptions, the harmful aspect of politics of the workplace, and the harm of “management by meetings” with its inherent separation of decision making from the creation of knowledge. There are likely other categories of problems, and I’ve included these here just to give you an idea of the sort of things we’ve noticed. \
+<!-- We listed each of these “fading problems” and ended up with a list of many specific problems we were previously having and were either no longer affecting us, or had become much less a problem for us. While the specific problems will likely be different from company to company, we found these problems can be grouped into several categories. A few of the main categories are counterproductive communications, decision making dysfunctions, the waste of doing more than what is barely sufficient, the debilitating disease of technical debt, and the burden and associated waste of heavy management techniques (estimating, prioritizing, scheduling, queuing, performance reviews, etc.). Other problem categories include the loss of focus and effectiveness caused by thrashing of programmers through unnecessary task switching and interruptions, the harmful aspect of politics of the workplace, and the harm of “management by meetings” with its inherent separation of decision making from the creation of knowledge. There are likely other categories of problems, and I’ve included these here just to give you an idea of the sort of things we’ve noticed. \ -->
 これらの「自然消滅した問題」を一つ一つ挙げていくと、私たちが以前に抱えていた具体的な問題の長いリストになりましたが、それらはもはや私たちに影響を与えなくなったか、あるいは小さな問題になっていました。具体的な問題は会社によって異なるでしょうが、これらの問題はいくつかのカテゴリーに分類できることがわかりました。主なカテゴリーのいくつかは、逆効果なコミュニケーション、意思決定の機能不全、「かろうじて足りる」こと以上を行うことのムダ、技術的負債による衰弱、そして重厚なマネジメントテクニック（見積もり、優先順位付け、スケジューリング、キューイング、パフォーマンスレビューなど）の負担とそれに関連するムダです。他の問題のカテゴリーには、不必要なタスクの切り替えや中断によるプログラマーのバタつきによって引き起こされる集中力と有効性の喪失、社内政治の有害な側面、意思決定と知識創造を本質的に分離する「ミーティングによるマネジメント」の弊害などがあります。問題のカテゴリーは他にもあると思いますが、私たちが気づいたこの類のもののイメージをお伝えました。
 
 
