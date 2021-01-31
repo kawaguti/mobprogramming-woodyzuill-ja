@@ -342,7 +342,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- ## 9. THE HAPPINESS FACTOR -->
-## 9. ハピネス・ファクター**
+## 9. ハピネス・ファクター
 
 
 <!-- Another aspect of our work style is that each day we come to work energized and excited to be working together. While few would claim that they “live to work”, we find that our lives are greatly enriched by working together as a team. We call this the “happiness factor”. We follow a very sustainable approach which keeps us engaged and interested in our work. We pay attention to our physical and mental health and strive to provide an environment where everyone can excel in their work, and excel in their lives. This helps us to do our best thinking and invent the best solutions we are capable of creating. We are all constantly advancing our careers by learning and expanding our skills and capabilities. We have a general sense of happiness and fulfillment in our work. \ -->
@@ -350,7 +350,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- ## 10. CONTINUOUS LEARNING, INTENTIONAL LEARNING/PRACTICE, AND EXPERIEMNTS \ -->
-## 10. 継続的な学習、意図的な学習/実践、経験**
+## 10. 継続的な学習、意図的な学習/実践、経験
 
 
 <!-- Mob Programming provides an environment where continuous learning occurs. Typical programming skills are easily revealed and learned as we watch each other coding. Everything from keyboard shortcuts and programming language features to design patterns and business concepts are exposed and shared across the team. An interesting side effect is that we are all learning to become better students and teachers; better at asking and answering questions. Regardless the level of experience any one person has, there are endless opportunities for each of us to discover and learn things that are meaningful to our own improvement. \ -->
@@ -370,7 +370,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- ## 11. A FEW THINGS TO WATCH OUT FOR \ -->
-## 11. いくつか気をつけること**
+## 11. いくつか気をつけること
 
 
 <!-- Working as a Mob means all of our weaknesses are exposed. Everything we do is visible to everyone on the team. Some people might find this uncomfortable to such a degree that they will not be able to work this way. However, while it took us a while to get there, everyone currently on our team has been able to adjust to this constant scrutiny and exposure. We all understand that we are committed to treating each other with kindness, consideration, and respect so we are not as vulnerable as it might at first appear. While some people are more skilled or capable than others, we are all less than perfect, and we will all have something we don’t feel confident about exposing to others. \ -->
@@ -382,7 +382,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- ## 12. HEALTH AND ERGONOMICS \ -->
-## 12. 健康と人間工学**
+## 12. 健康と人間工学
 
 
 <!-- We realize that working closely with other people can increase our chance of sharing germs or passing illness around. To lessen the chance that we’ll all get sick at the same time we have enough room for everyone to sit far enough away from each other so we aren’t sneezing or coughing on each other. We also keep hand sanitizer on our table for use when we change Drivers at the keyboard. When one of us is sick, we encourage that person to stay home. If they want to work we have them work from home rather than spread germs around to the team. \ -->
@@ -394,7 +394,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- ## 13. WHAT IS THE IDEAL SIZE FOR THE TEAM? \ -->
-## 13. チームの理想的なサイズは？**
+## 13. チームの理想的なサイズは？
 
 
 <!-- This is a frequently asked question, and we do not have sufficient information to answer. We are currently working with 6 people on the team. We have had as few as 3 and as many as 12 working together as a “Mob” and found we were able to be productive. However, we use a heuristic to help guide us in regards to “how many is too many”: For each individual, if you do not feel you are either contributing or learning we take that as a sign that this might be a good time to work on your own for a bit, or to split off with a pair or a few others to start your own Mob. \ -->
@@ -402,7 +402,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- ## 14. DO YOU RECOMMEND MOB PROGRAMMING? \ -->
-## 14. あなたはモブプログラミングを勧めますか？**
+## 14. あなたはモブプログラミングを勧めますか？
 
 
 <!-- People often ask if we recommend Mob Programming. We have found that it works well for us and it might work for you. However, rather than recommending it we are merely sharing our experiences. We do believe that it is worthwhile to investigate the concept and see if there are parts of it that will work for you. Who knows? It might end up working well for your team. \ -->
