@@ -95,129 +95,117 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 私たちは、「モブプログラミング」を始めてから3年間、多くのプロジェクトや機能拡張を成功させてきました。今では常設の作業スペースを確保し、仕事の進め方を少しずつ改善してきましたが、チーム全体で1台のコンピュータで作業をするという基本的なパターンを守り続けてきました。
 
 
-## 
-**3. WHY WE WORK THIS WAY \
-3. なぜこのような働き方をするのか**
+<!-- ## 3. WHY WE WORK THIS WAY -->
+## 3. なぜこのような働き方をするのか**
 
 
-We work this way because the team decided to work this way. This is an important concept for us: The team doing the work can best determine how to do that work. We were not told to work this way. We have the freedom and responsibility to decide how we want to work. Having discovered that continuously working and collaborating together all day, every day, was working well for us continuing to do so was the natural next step. We continue to pay attention to what is working, and we frequently “tune and adjust” as needed. Our mantra is to “always turn up the good” [TURN]. \
-チームがこの方法で仕事をしようと決めたからこそ、私たちはこの方法で仕事をしているのです。これは私たちにとって重要な概念です。仕事をしているチームは、その仕事をどのように行うかを最もうまく決めることができます。私たちは、このように働けと言われたわけではありません。私たちには、どのように仕事をしたいかを決める自由と責任があるのです。毎日、一日中一緒に仕事をし、協力し合うことがうまくいっていることがわかったので、それを続けることは自然なことでした。私たちは何がうまくいっているかに注意を払い続け、必要に応じて頻繁に「調整と調整」を行っています。私たちの合言葉は、「常に、よりよく」です。
+<!-- We work this way because the team decided to work this way. This is an important concept for us: The team doing the work can best determine how to do that work. We were not told to work this way. We have the freedom and responsibility to decide how we want to work. Having discovered that continuously working and collaborating together all day, every day, was working well for us continuing to do so was the natural next step. We continue to pay attention to what is working, and we frequently “tune and adjust” as needed. Our mantra is to “always turn up the good” [TURN]. \ -->
+チームがこの方法で仕事をしようと決めたからこそ、私たちはこの方法で仕事をしているのです。これは私たちにとって重要な概念です。仕事をしているチームは、その仕事をどのように行うかを最もうまく決めることができます。私たちは、このように働けと言われたわけではありません。私たちには、どのように仕事をしたいかを決める自由と責任があるのです。毎日、一日中一緒に仕事をし、協力し合うことがうまくいっていることがわかったので、それを続けることは自然なことでした。私たちは何がうまくいっているかに注意を払い続け、必要に応じて頻繁に「調整と調整」を行っています。私たちの合言葉は、「常に、よりよく」です[TURN]。
 
 
-## 
-**4. THE BASIC SETUP \
-4. 基本的なセットアップ**
+<!-- ## 4. THE BASIC SETUP  -->
+## 4. 基本的なセットアップ
 
 
-The basic setup isn’t complicated, but is very different from the typical cubicle arrangement. While physical comfort and personal preference are easy to accommodate when working solo in separate cubicles, it becomes a bit of a challenge when most of our work is done sitting together in the group work area for extended periods of time. We have found it is very important to be physically comfortable while working relatively close to each other, and using shared monitors, keyboards, computer setup, and programming tools. We need to allow for personal preferences in keyboards, coding styles, work styles, tools, and so on. \
+<!-- The basic setup isn’t complicated, but is very different from the typical cubicle arrangement. While physical comfort and personal preference are easy to accommodate when working solo in separate cubicles, it becomes a bit of a challenge when most of our work is done sitting together in the group work area for extended periods of time. We have found it is very important to be physically comfortable while working relatively close to each other, and using shared monitors, keyboards, computer setup, and programming tools. We need to allow for personal preferences in keyboards, coding styles, work styles, tools, and so on. \ -->
 基本的なセットアップは複雑ではありませんが、一般的な作業スペース(キュービクル)の配置とは大きく異なります。別々の作業スペースで一人で作業する場合は、身体的な快適さや個人的な好みを考慮するのは簡単ですが、仕事のほとんどをグループワークエリアで一緒に長時間座って行う場合は、ちょっとした課題になります。お互いに比較的近くで作業し、共有のモニター、キーボード、コンピュータのセットアップ、プログラミングツールを使用している場合は、身体的に快適であることが非常に重要であることがわかりました。キーボード、コーディングスタイル、ワークスタイル、ツールなどの個人的な好みを考慮する必要があります。
 
 
-Please refer to Fig. 1 to get an idea of our basic floor plan. Our main work area is configured using standard cubicle walls, and is about 16ft x 18ft. There is one computer used by all team members when writing code. We have two projectors to project “dual monitors” onto the wall, and two keyboards so team members have a choice to match their preference. Around the walls we have several rolling whiteboards and areas for flip charts. Several desks and other computers are available for individuals to use when not coding or otherwise using the main team computer. \
+<!-- Please refer to Fig. 1 to get an idea of our basic floor plan. Our main work area is configured using standard cubicle walls, and is about 16ft x 18ft. There is one computer used by all team members when writing code. We have two projectors to project “dual monitors” onto the wall, and two keyboards so team members have a choice to match their preference. Around the walls we have several rolling whiteboards and areas for flip charts. Several desks and other computers are available for individuals to use when not coding or otherwise using the main team computer. \ -->
 基本的な間取り図は、図1を参照してください。私たちのメインの作業エリアは、標準的なキュービクルのパーティションを使用して構成されており、約16ft x 18ft(4.9m x 5.5m)の大きさです。チームメンバー全員がコードを書く際に使用するコンピュータが1台あります。2台のプロジェクターで「デュアルモニター」を壁に投影し、2台のキーボードでチームメンバーの好みに合わせて選択できるようにしています。壁の周りには、数台のローリングホワイトボードとフリップチャート用のエリアがあります。コーディングをしていない時やチームのメインコンピュータを使用していない時には、個別の机や他のコンピュータを使用することができます。
 
 
-![alt_text](images/fig1-early-whiteboard.jpg "image_tooltip")
- \
-_Figure 1 – Early Whiteboard Drawing of our floorplan once we had a permanent work area \
-図1 - 恒久的な作業エリアができた後の初期のホワイトボード図面_
+![alt_text](images/fig1-early-whiteboard.jpg "図1 - 恒久的な作業エリアができた後の初期のホワイトボード図面")
+<!-- _Figure 1 – Early Whiteboard Drawing of our floorplan once we had a permanent work area \ -->
+図1 - 恒久的な作業エリアができた後の初期のホワイトボード図面
 
 
-### 
-**4.1 Computers \
-4.1 コンピュータ**
+<!-- ### 4.1 Computers -->
+### 4.1 コンピュータ
 
 
-There is only one computer in use for programming. All code that enters the code base is input through this single computer. This computer is also used for team emails, designing, testing, and other activities that involve the whole team. \
+<!-- There is only one computer in use for programming. All code that enters the code base is input through this single computer. This computer is also used for team emails, designing, testing, and other activities that involve the whole team. \ -->
 プログラミングに使用されているコンピュータは1台だけです。コードベースに入るコードはすべてこの1台のコンピュータを介して入力されます。このコンピュータは、チームメールや設計、テストなどチーム全体を巻き込んだ活動にも使われています。
 
 
-We also have other desktop and laptop computers available that we use for researching, independently looking at databases or trying things out, writing personal emails, and other purposes in parallel with the programming. There will often be more than one person searching for information about some problem or new technology we are trying to use. We all stay together and communicate continually about what we are learning. \
+<!-- We also have other desktop and laptop computers available that we use for researching, independently looking at databases or trying things out, writing personal emails, and other purposes in parallel with the programming. There will often be more than one person searching for information about some problem or new technology we are trying to use. We all stay together and communicate continually about what we are learning. \ -->
 他にも、デスクトップパソコンやノートパソコンを利用して、調査をしたり、独自にデータベースを見たり、何かを試してみたり、個人的なメールを書いたり、プログラミングと並行して他のことを行っています。何らかの問題や新しい技術についての情報を探している人が複数人いることもよくあります。私たちは皆で一緒にいて、私たちが学んでいることについて継続的にコミュニケーションをとります。
 
 
-### 
-**4.2 Projectors \
-4.2 プロジェクター**
+<!-- ### 4.2 Projectors -->
+### 4.2 プロジェクター
 
 
-![alt_text](images/fig2-dual-projected-monitors.jpg "image_tooltip")
-** \
-_Figure 2 – Dual projected monitors. \
-図2 - デュアルプロジェクションモニター_**
+![alt_text](images/fig2-dual-projected-monitors.jpg "図2 - デュアルプロジェクションモニター")
+<!-- _Figure 2 – Dual projected monitors. \ -->
+図2 - デュアルプロジェクションモニター
 
 
-There are two projectors which we use as dual monitors. We project onto a wall we have had painted with a special projector screen paint that works well for this purpose. After experimenting with the height, distance, brightness, ambient room lighting, wall paint, and other settings we have adjusted things to work nicely for everyone on the team. We project a lot lower on the wall than the typical meeting room projector as we found this allows us to keep our necks from getting sore. The two projectors are the same model and are high quality. Our goal is to keep the screens at about the same size, general position, resolution, and brightness to make them comfortable to work with all day long. \
+<!-- There are two projectors which we use as dual monitors. We project onto a wall we have had painted with a special projector screen paint that works well for this purpose. After experimenting with the height, distance, brightness, ambient room lighting, wall paint, and other settings we have adjusted things to work nicely for everyone on the team. We project a lot lower on the wall than the typical meeting room projector as we found this allows us to keep our necks from getting sore. The two projectors are the same model and are high quality. Our goal is to keep the screens at about the same size, general position, resolution, and brightness to make them comfortable to work with all day long. \ -->
 プロジェクターは2台あり、デュアルモニターとして使用しています。私たちは、この目的のためにうまく機能する特別なプロジェクター用のスクリーンペイントでペイントした壁に投影します。高さ、距離、明るさ、周囲の部屋の照明、壁の塗料、および他の設定を実験し、チームのみんなにとってうまく動作するように調整しました。一般的な会議室のプロジェクターよりも壁の高さを低くして投影することで、首が痛くならないようにしています。2台のプロジェクターは同じモデルで高品質です。私たちの目標は、スクリーンの大きさ、位置、解像度、明るさをほぼ同じにして、一日中快適に作業できるようにすることです。
 
 
-### 
-**4.3 Keyboard/Mouse \
-4.3 キーボード/マウス**
+<!-- ### 4.3 Keyboard/Mouse -->
+### 4.3 キーボード/マウス
 
 
-There are two keyboards and two mice so everyone has a choice to suit themselves. We experimented with four or five different keyboards and settled on two: a “regular” one and a “natural ergonomic” one. We do not use both at the same time; there is only one developer “keyboarding” at any one time as I’ll explain later. When a developer prefers a drastically different keyboard layout, such as Qwerty vs. Dvorak, we find a way to quickly switch between the options. There are many personal preferences to take into account, such as left-­‐handed vs. right-­‐handed programmers, track-­‐ball vs. traditional mouse, and so on. Any set-­‐up issue that requires one team member to work differently from another is not a problem as long as we find a way to make the switch quickly and smoothly when each person takes their turn at the keyboard. \
+<!-- There are two keyboards and two mice so everyone has a choice to suit themselves. We experimented with four or five different keyboards and settled on two: a “regular” one and a “natural ergonomic” one. We do not use both at the same time; there is only one developer “keyboarding” at any one time as I’ll explain later. When a developer prefers a drastically different keyboard layout, such as Qwerty vs. Dvorak, we find a way to quickly switch between the options. There are many personal preferences to take into account, such as left-­‐handed vs. right-­‐handed programmers, track-­‐ball vs. traditional mouse, and so on. Any set-­‐up issue that requires one team member to work differently from another is not a problem as long as we find a way to make the switch quickly and smoothly when each person takes their turn at the keyboard. \ -->
 キーボードとマウスが2つあるので、誰もが自分に合ったものを選ぶことができます。4、5種類のキーボードを試してみた結果、「普通の」キーボードと「人間工学に基づいた自然な」キーボードの2種類に落ち着きました。後述するように、一度に「キーボードを使う」開発者は一人しかいません。開発者が Qwerty と Dvorak のような全く異なるキーボードレイアウトを好む場合、私たちは設定を素早く切り替える方法を見つけます。左利きと右利きのプログラマー、トラックボールと伝統的なマウスなど、個人的な好みはたくさんあります。チームメンバーの一人が別の人とは異なる作業をする必要があるセットアップの問題は、各人がキーボードを使う際に素早くスムーズに切り替える方法を見つける限り、問題ではありません。
 
 
-### 
-**4.4 Chairs and Tables \
-4.4 椅子とテーブル**
+<!-- ### 4.4 Chairs and Tables -->
+### 4.4 椅子とテーブル
 
 
-Each team member has their own chair which is moved around as we take on the different roles (Driver or Navigator). This way we don’t need to constantly readjust the chair settings and each person can stay as comfortable as possible. Our chairs are good quality and comfortable, and chosen individually for the team member during an ergonomic assessment. Our work surface is a couple of tables that are comfortable to sit at. The computer, keyboards/mice, projectors, phone, speakers, hand sanitizer, and a few other things we like to keep close at hand are kept on the tables. \
+<!-- Each team member has their own chair which is moved around as we take on the different roles (Driver or Navigator). This way we don’t need to constantly readjust the chair settings and each person can stay as comfortable as possible. Our chairs are good quality and comfortable, and chosen individually for the team member during an ergonomic assessment. Our work surface is a couple of tables that are comfortable to sit at. The computer, keyboards/mice, projectors, phone, speakers, hand sanitizer, and a few other things we like to keep close at hand are kept on the tables. \ -->
 各チームのメンバーはそれぞれ自分の椅子を持っていて、それぞれの役割（ドライバーやナビゲーター）に応じて移動します。このようにして、常に椅子を再調整する必要がなく、各人が可能な限り快適に過ごせるようになっています。私たちの椅子は高品質で快適なものを使用しており、人間工学的な評価を受けた上でチームメンバーのために個別に選択されます。私たちの作業台は、２組の座り心地の良いテーブルです。コンピュータ、キーボード/マウス、プロジェクター、電話、スピーカー、手指消毒剤、その他の身近に置いておきたいものがテーブルの上に置かれています。
 
 
-One important factor is how we orient ourselves to the projected screens throughout the day. In typical meeting rooms, the projector screen is at the end of the table, so almost everyone needs to turn their heads to see the screen. While this is fine for short meetings, it becomes very uncomfortable when we work this way for several hours or a whole day. In our layout the tables are parallel with the screens so we can face them in a comfortable and stress-­‐free way throughout the day. \
+<!-- One important factor is how we orient ourselves to the projected screens throughout the day. In typical meeting rooms, the projector screen is at the end of the table, so almost everyone needs to turn their heads to see the screen. While this is fine for short meetings, it becomes very uncomfortable when we work this way for several hours or a whole day. In our layout the tables are parallel with the screens so we can face them in a comfortable and stress-­‐free way throughout the day. \ -->
 重要な要素の1つは、1日を通して投影されたスクリーンに対してどのように向き合っているかということです。一般的な会議室では、プロジェクターのスクリーンはテーブルの端にあるため、ほとんどの人がスクリーンを見るために頭を回転させなければなりません。短時間の会議であれば問題ありませんが、数時間、1日中このように作業していると、非常に不快な気分になります。私たちのレイアウトでは、テーブルとスクリーンが平行に配置されているので、一日中快適でストレスのない方法でスクリーンと向き合うことができます。
 
 
-We have a rolling magnetic whiteboard we use for keeping track of the work we are doing similar to a typical [task board](https://www.agilealliance.org/glossary/taskboard/), as well as a few other whiteboards and easels, and a couple of file cabinets and small desks. \
-一般的なタスクボードに似た仕事の記録に使用している回転式のマグネットホワイトボード、他にもいくつかのホワイトボードやイーゼル、ファイルキャビネットや小さなデスクもあります。
+<!-- We have a rolling magnetic whiteboard we use for keeping track of the work we are doing similar to a typical [task board](https://www.agilealliance.org/glossary/taskboard/), as well as a few other whiteboards and easels, and a couple of file cabinets and small desks. \ -->
+一般的な[タスクボード](https://www.agilealliance.org/glossary/taskboard/)に似た仕事の記録に使用している回転式のマグネットホワイトボード、他にもいくつかのホワイトボードやイーゼル、ファイルキャビネットや小さなデスクもあります。
 
 
-### 
-**4.5 Private Work Areas \
-4.5 個人用の作業エリア**
+<!-- ### 4.5 Private Work Areas -->
+### 4.5 個人用の作業エリア
 
 
-We each have our own separate work area to use whenever anyone would like to work alone. We have small desk areas in a separate annex to the main team area. These are configured as either sit-­‐down or stand-­‐up workstations depending on what each individual prefers, and each team member has their own computer, dual monitors, drawers, phone, etc. When in the private area we can still hear and pay attention to the main “mobbing” area if we like, or we can wear headphones or otherwise “tune-­‐out” what everyone else is working on. \
+<!-- We each have our own separate work area to use whenever anyone would like to work alone. We have small desk areas in a separate annex to the main team area. These are configured as either sit-­‐down or stand-­‐up workstations depending on what each individual prefers, and each team member has their own computer, dual monitors, drawers, phone, etc. When in the private area we can still hear and pay attention to the main “mobbing” area if we like, or we can wear headphones or otherwise “tune-­‐out” what everyone else is working on. \ -->
 一人で仕事をしたい人がいつでも利用できるように、個人用の作業エリアもあります。私たちは、メインのチームエリアとは別の場所に、小さなデスクエリアを持っています。各人の好みに応じて、座るか立つかのどちらかのワークステーションとして構成されており、各チームメンバーはそれぞれのコンピュータ、デュアルモニター、引き出し、電話などを持っています。プライベートエリアにいても、メインの「モビング」エリアの音を聞いたり、注意を払ったりすることもできるし、ヘッドフォンをして他の人達がやっていることを「締め出す」こともできます。
 
 
-## 
-**5. A FEW IMPORTANT WORK PRACTICES \
-5. 作業に関するいくつかの重要なプラクティス**
+<!-- ## 5. A FEW IMPORTANT WORK PRACTICES -->
+## 5. 作業に関するいくつかの重要なプラクティス**
 
 
-With Mob Programming everyone is in almost constant communication with everyone else. While this brings a lot of value, it is also a relatively foreign way to work for many doing software development. We’ve found that we need a few simple principles and practices that allow us to keep focused and collaborating nicely throughout the day. Our goal is for everyone to be able to contribute or be learning at the level they feel is most useful to both the team and to themselves. We actually think of learning as a type of contribution to the team. \
+<!-- With Mob Programming everyone is in almost constant communication with everyone else. While this brings a lot of value, it is also a relatively foreign way to work for many doing software development. We’ve found that we need a few simple principles and practices that allow us to keep focused and collaborating nicely throughout the day. Our goal is for everyone to be able to contribute or be learning at the level they feel is most useful to both the team and to themselves. We actually think of learning as a type of contribution to the team. \ -->
 モブプログラミングでは、誰もが他の誰とでも常にコミュニケーションをとりつづけます。これは多くの価値をもたらしますが、ソフトウェア開発をしている多くの人にとっては比較的異質な働き方でもあります。私たちは、一日を通して集中し、うまく協調するために、いくつかのシンプルな原則とプラクティスが必要であることに気付きました。私たちの目標は、誰もがチームと自分自身の両方にとって最も有用であると感じるレベルで貢献したり、学習したりすることができるようになることです。私たちは、学習はチームへの貢献の一種であると考えています。
 
 
-Disclaimer: While the principles and practices we have found and are using are working well for us, we are always on the lookout for improvement. We also realize that other groups and teams might find that our approach will not work in their context. We invite experimentation and innovation and would love to hear from others who have found new or different ways that work nicely in their environment. \
+<!-- Disclaimer: While the principles and practices we have found and are using are working well for us, we are always on the lookout for improvement. We also realize that other groups and teams might find that our approach will not work in their context. We invite experimentation and innovation and would love to hear from others who have found new or different ways that work nicely in their environment. \ -->
 免責事項: 私たちが発見し、使用している原則やプラクティスは、私たちにとってはうまく機能していますが、私たちは常に改善を求めています。私たちはまた、他のグループやチームが、私たちのアプローチが自分たちの状況では通用しないことに気づくかもしれないことも理解しています。私たちは実験と革新を歓迎し、自分たちの環境でうまく機能する新しい方法や異なる方法を発見した他の人の意見を聞きたいと思っています。
 
 
-### 
-**5.1 The Principle of Treating Each Other with Kindness, Consideration and Respect \
-5.1 優しさ、思いやり、尊敬をもってお互いに接するという原則**
+<!-- ### 5.1 The Principle of Treating Each Other with Kindness, Consideration and Respect  -->
+### 5.1 優しさ、思いやり、尊敬をもってお互いに接するという原則
 
 
-Tens and hundreds of interactions between people occur every day in our work. The number of interactions compounds quickly when most of our conversations involve 5 or 6 or sometimes more people, rather than between just two individuals at a time. We express ideas, discuss problems, explore possible solutions, and share thoughts all day long. We are rarely in agreement on most things until we have had a chance to hear from everyone who has something to contribute, and have had the back and forth discussions that expand our understanding. \
+<!-- Tens and hundreds of interactions between people occur every day in our work. The number of interactions compounds quickly when most of our conversations involve 5 or 6 or sometimes more people, rather than between just two individuals at a time. We express ideas, discuss problems, explore possible solutions, and share thoughts all day long. We are rarely in agreement on most things until we have had a chance to hear from everyone who has something to contribute, and have had the back and forth discussions that expand our understanding. \ -->
 私たちの仕事では、人と人との間には何十、何百もの相互作用が毎日発生します。2人だけの会話ではなく、5～6人、時にはそれ以上の人との会話になると、その数は急速に増えていきます。私たちは一日中、アイデアを表現し、問題を議論し、可能な解決策を探り、考えを共有します。貢献できることがある人全員から話を聞く機会を得て、理解を深めるために堂々巡りな議論をするまでは、ほとんどのことがらにおいて意見が一致することはめったにありません。
 
 
-To make it possible to keep this high level of communication happening throughout the day we have adopted a principle to always treat each other with kindness, consideration, and respect. While this seems straightforward, we feel that expressly acknowledging the importance of this principle provides a foundation for our daily interactions. People like me who are not good at being kind, considerate, and respectful quickly get better at it when everyone is committed to live this principle. \
+<!-- To make it possible to keep this high level of communication happening throughout the day we have adopted a principle to always treat each other with kindness, consideration, and respect. While this seems straightforward, we feel that expressly acknowledging the importance of this principle provides a foundation for our daily interactions. People like me who are not good at being kind, considerate, and respectful quickly get better at it when everyone is committed to live this principle. \ -->
 このような高いレベルのコミュニケーションを一日を通して行うために、私たちは、常に親切、思いやり、尊敬の念を持ってお互いに接することを原則としています。これは簡単なことのように思えますが、この原則の重要性を明確に認めることは、私たちの日々の交流の基盤になると感じています。私のように親切、思いやり、尊敬の心を持って接することが苦手な人は、誰もがこの原則で生活することに専念すると、すぐに上手になります。
 
 
-### 
-**5.2 The Driver/Navigators Pattern of Programming \
-5.2 プログラミングのドライバー/ナビゲーターパターン**
+<!-- ### 5.2 The Driver/Navigators Pattern of Programming -->
+### 5.2 プログラミングのドライバー/ナビゲーターパターン
 
 
-We use the Driver/Navigators [DRVR] pattern I adapted from Llewellyn Falco’s “strong” pair programming style. The basic rule is that “for an idea to go from your head into the computer it MUST go through someone else’s hands.” \
+<!-- We use the Driver/Navigators [DRVR] pattern I adapted from Llewellyn Falco’s “strong” pair programming style. The basic rule is that “for an idea to go from your head into the computer it MUST go through someone else’s hands.” \ -->
 私たちは、Llewellyn Falco 氏の「強い」ペア・プログラミング・スタイルから発展した ドライバー/ナビゲーター [DRVR]パターンを使用しています。基本的なルールはこうです：「アイデアが頭からコンピュータに入力されるためには、他の誰かの手を通さなければならない」。
 
 
