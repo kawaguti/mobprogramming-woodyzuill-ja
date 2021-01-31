@@ -100,7 +100,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- We work this way because the team decided to work this way. This is an important concept for us: The team doing the work can best determine how to do that work. We were not told to work this way. We have the freedom and responsibility to decide how we want to work. Having discovered that continuously working and collaborating together all day, every day, was working well for us continuing to do so was the natural next step. We continue to pay attention to what is working, and we frequently “tune and adjust” as needed. Our mantra is to “always turn up the good” [TURN]. \ -->
-チームがこの方法で仕事をしようと決めたからこそ、私たちはこの方法で仕事をしているのです。これは私たちにとって重要な概念です。仕事をしているチームは、その仕事をどのように行うかを最もうまく決めることができます。私たちは、このように働けと言われたわけではありません。私たちには、どのように仕事をしたいかを決める自由と責任があるのです。毎日、一日中一緒に仕事をし、協力し合うことがうまくいっていることがわかったので、それを続けることは自然なことでした。私たちは何がうまくいっているかに注意を払い続け、必要に応じて頻繁に「調整と調整」を行っています。私たちの合言葉は、「常に、よりよく」です[TURN]。
+チームがこの方法で仕事をしようと決めたからこそ、私たちはこの方法で仕事をしているのです。これは私たちにとって重要な概念です。仕事をしているチームは、その仕事をどのように行うかを最もうまく決めることができます。私たちは、このように働けと言われたわけではありません。私たちには、どのように仕事をしたいかを決める自由と責任があるのです。毎日、一日中一緒に仕事をし、協力し合うことがうまくいっていることがわかったので、それを続けることは自然なことでした。私たちは何がうまくいっているかに注意を払い続け、必要に応じて頻繁に「調整とチューニング」を行っています。私たちの合言葉は、「常に、よりよく」です[TURN]。
 
 
 <!-- ## 4. THE BASIC SETUP  -->
