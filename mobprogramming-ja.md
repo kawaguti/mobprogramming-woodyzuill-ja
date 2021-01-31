@@ -47,52 +47,51 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 ソフトウェアのコーディングに加えて、ストーリーの定義、設計、テスト、ソフトウェアのデプロイ、顧客との作業など、一般的なソフトウェア開発チームが取り組むほぼすべての作業をチームで行います（私たちの環境では、[プロダクトオーナー](https://www.agilealliance.org/glossary/product-owner/)と似たような役割の社内の顧客のことを「パートナー」と呼んでいます）。ほとんどすべての作業は「ワーキングミーティング」や「ワークショップ」として行われ、パートナーを含めソフトウェアの作成に関わるすべての人がチームメンバーと考えられています。多かれ少なかれ、一日中毎日このように仕事をしています。
 
 
-In other words, this is an evolutionary step beyond the Extreme Programming [EXT] concept of pair programming. We strive to accentuate and amplify concepts such as face-­‐to-­‐face and side-­‐by-­‐side communication, team alignment, collaboration, whole team involvement, continuous code review, and the “self-­‐organizing team”, to name a few. \
+<!-- In other words, this is an evolutionary step beyond the Extreme Programming [EXT] concept of pair programming. We strive to accentuate and amplify concepts such as face-­‐to-­‐face and side-­‐by-­‐side communication, team alignment, collaboration, whole team involvement, continuous code review, and the “self-­‐organizing team”, to name a few. \ -->
 言い換えれば、ペアプログラミングというエクストリームプログラミング[EXT]の概念を超えた進化の一歩です。私たちは、いくつかの例を挙げれば、同席かつ対面のコミュニケーション、チームの連携、コラボレーション、チーム全体の関与、継続的なコードレビュー、「自己組織化チーム」などの概念を強調し、増幅させるように努めています。
 
 
-In this experience report I describe why we work this way, our basic setup, some of the benefits we have seen from Mob Programming, and how we work this way including a few critical practices, such as the “Driver/Navigators” teamwork model that we’ve adopted that makes it possible for us to work as a “whole team” all day, every day. \
+<!-- In this experience report I describe why we work this way, our basic setup, some of the benefits we have seen from Mob Programming, and how we work this way including a few critical practices, such as the “Driver/Navigators” teamwork model that we’ve adopted that makes it possible for us to work as a “whole team” all day, every day. \ -->
 この体験レポートでは、なぜこのような働き方をしているのか、基本的なセットアップ、モブプログラミングから得られたメリット、そして「ドライバー/ナビゲーター」チームワークモデルなどの、「チーム全体」として一日中働くために重要ないくつかのプラクティスを説明します。
 
 
-## 
-**2. HOW WE STARTED \
-2. どのようにして始めたか**
+<!-- ## 2. HOW WE STARTED -->
+## 2. どのようにして始めたか
 
 
-We did not set out to invent a new way to work, or to extend the idea of pair programming. We simply noticed something that was working well for us and expanded on it. \
+<!-- We did not set out to invent a new way to work, or to extend the idea of pair programming. We simply noticed something that was working well for us and expanded on it. \ -->
 私たちは、新しい働き方を発明しようとしたわけでも、ペアプログラミングのアイデアを拡張しようとしたわけでもありません。私たちは単に、私たちにとってうまく機能していることに気付き、それを拡張しただけです。
 
 
-Prior to discovering and adopting Mob Programming as our general work style, we followed a practice of having frequent retrospectives and continuously working at making things better. We had been learning pair programming and Test-­‐Driven Development [TDD] and holding practice sessions using a Coding Dojo [DOJO] approach (where everyone uses a single computer with a projector and passes the keyboard around) to practice these skills. Several of the team members had started using TDD and pair programming, along with other new skills to some degree in their daily work. \
-モブプログラミングを発見し、一般的なワークスタイルとして採用する前は、頻繁にふりかえりを行い、より良いものを作るために継続的に取り組むことを実践していました。ペアプログラミングやテスト駆動開発(TDD)を学んだり、コーディング道場(DOJO)を使った練習会(全員が1台のパソコンとプロジェクターを使い、キーボードを回して練習する)を行ったりしていました。チームメンバーの何人かは、TDDとペアプログラミングをはじめ、他の新しいスキルも含めて、日々の仕事の中である程度使い始めていました。
+<!-- Prior to discovering and adopting Mob Programming as our general work style, we followed a practice of having frequent retrospectives and continuously working at making things better. We had been learning pair programming and Test-­‐Driven Development [TDD] and holding practice sessions using a Coding Dojo [DOJO] approach (where everyone uses a single computer with a projector and passes the keyboard around) to practice these skills. Several of the team members had started using TDD and pair programming, along with other new skills to some degree in their daily work. \ -->
+モブプログラミングを発見し、一般的なワークスタイルとして採用する前は、頻繁にふりかえりを行い、より良いものを作るために継続的に取り組むことを実践していました。ペアプログラミングやテスト駆動開発[TDD]を学んだり、コーディング道場[DOJO]を使った練習会(全員が1台のパソコンとプロジェクターを使い、キーボードを回して練習する)を行ったりしていました。チームメンバーの何人かは、TDDとペアプログラミングをはじめ、他の新しいスキルも含めて、日々の仕事の中である程度使い始めていました。
 
 
-At one point we needed to prepare to restart work on a project that was previously in development but had been put “on hold” for several months while some other more critical work was being taken care of. We gathered in a typical meeting room to take a look at this project and decide on how to take on the work. A few of the team members and a contractor had previously worked on this project, but the rest of the team had not. \
+<!-- At one point we needed to prepare to restart work on a project that was previously in development but had been put “on hold” for several months while some other more critical work was being taken care of. We gathered in a typical meeting room to take a look at this project and decide on how to take on the work. A few of the team members and a contractor had previously worked on this project, but the rest of the team had not. \ -->
 ある時、以前開発中だったものの、他のクリティカルな作業のため数ヶ月間「保留」にされていたプロジェクトを再開する準備をする必要がありました。私たちはよくある会議室に集まり、このプロジェクトを見て、どのように仕事を引き受けるかを決めました。チームメンバーの数名と契約社員はこのプロジェクトに携わったことがありましたが、それ以外のメンバーはありませんでした。
 
 
-During the initial meeting we were familiarizing each other with the project. We started by taking a look at some code, database tables, documents, and a few other details of the project. At some point in this review/refresh meeting we started trying out a few ideas, writing tests, changing code, and discussing how to proceed. As we had all been learning and practicing pair programming over the last few months it was very natural for us start to pass the keyboard around as we worked. \
+<!-- During the initial meeting we were familiarizing each other with the project. We started by taking a look at some code, database tables, documents, and a few other details of the project. At some point in this review/refresh meeting we started trying out a few ideas, writing tests, changing code, and discussing how to proceed. As we had all been learning and practicing pair programming over the last few months it was very natural for us start to pass the keyboard around as we worked. \ -->
 最初のミーティングでは、プロジェクトに慣れようとしました。私たちは、いくつかのコード、データベースのテーブル、ドキュメント、プロジェクトの他のいくつかの詳細を見ることから始めました。このレビュー/リフレッシュミーティングでは、いくつかのアイデアを試してみたり、テストを書いてみたり、コードを変更してみたり、今後の進め方について話し合ったりしました。ここ数ヶ月間、ペアプログラミングを学び、練習してきたので、キーボードを渡しながら作業をするのはとても自然なことでした。
 
 
-After several hours another group was scheduled to use the meeting room we had occupied, so we quickly grabbed up our stuff and headed off to find an unoccupied meeting room. We held a “mini-­‐[retrospective](https://www.agilealliance.org/glossary/milestone-retrospective/)” [RETR] at the end of the day and we all felt the experience was very productive. We decided to arrange for meeting rooms to use the next day so we could continue to gather and work together in the same way. \
-数時間後、別のグループが私たちが使用していた会議室を使用することになったので、私たちは急いで荷物をまとめ、空いている会議室を探しに向かいました。その日の最後に「ミニ・レトロスペクティブ」[RETR]を行いましたが、全員がとても充実した経験になったと感じていました。そこで、翌日も同じように集まって活動できるように、会議室を手配することにしました。
+<!-- After several hours another group was scheduled to use the meeting room we had occupied, so we quickly grabbed up our stuff and headed off to find an unoccupied meeting room. We held a “mini-­‐[retrospective](https://www.agilealliance.org/glossary/milestone-retrospective/)” [RETR] at the end of the day and we all felt the experience was very productive. We decided to arrange for meeting rooms to use the next day so we could continue to gather and work together in the same way. \ -->
+数時間後、別のグループが私たちが使用していた会議室を使用することになったので、私たちは急いで荷物をまとめ、空いている会議室を探しに向かいました。その日の最後に「ミニ・[レトロスペクティブ](https://www.agilealliance.org/glossary/milestone-retrospective/)」[RETR]を行いましたが、全員がとても充実した経験になったと感じていました。そこで、翌日も同じように集まって活動できるように、会議室を手配することにしました。
 
 
-We followed this same basic pattern of working together moving from meeting room to meeting room over next two weeks. Each day we reviewed how the day went, and each day we decided we wanted to keep working “as a team”. We felt we were rapidly improving our ability to communicate well, increase our knowledge, and find better solutions. We were gaining a deep and shared understanding of the project and the technologies involved. About this time we decided to call what we were doing “Mob Programming.” \
+<!-- We followed this same basic pattern of working together moving from meeting room to meeting room over next two weeks. Each day we reviewed how the day went, and each day we decided we wanted to keep working “as a team”. We felt we were rapidly improving our ability to communicate well, increase our knowledge, and find better solutions. We were gaining a deep and shared understanding of the project and the technologies involved. About this time we decided to call what we were doing “Mob Programming.” \ -->
 それから２週間、私たちは、会議室から会議室へと移動しながら一緒に仕事をするという基本的なパターンを踏襲しました。毎日、その日の様子を振り返り、「チームとして」仕事を続けたい、ということを決めました。私たちは、上手にコミュニケーションをとり、知識を増やし、より良い解決策を見つける能力が急速に向上していると感じました。私たちは、プロジェクトとそれに関わる技術について、深く、共通の理解を得ることができました。この頃、私たちは自分たちがやっていることを "モブプログラミング "と呼ぶことに決めました。
 
 
-Our biggest problems were things like the disruption of moving from room to room, issues with network connections in some meeting rooms, varying quality and usability of the computers and projectors, and other similar logistic and equipment issues. We also found we were experiencing ergonomic problems such as getting sore backs and necks from poor posture and the bad orientation of tables and chairs in relation to the projected screen at the end of the table. We were also getting headaches from squinting at low resolution or poor quality projected computer screens. \
+<!-- Our biggest problems were things like the disruption of moving from room to room, issues with network connections in some meeting rooms, varying quality and usability of the computers and projectors, and other similar logistic and equipment issues. We also found we were experiencing ergonomic problems such as getting sore backs and necks from poor posture and the bad orientation of tables and chairs in relation to the projected screen at the end of the table. We were also getting headaches from squinting at low resolution or poor quality projected computer screens. \ -->
 私たちの最大の問題は、部屋から部屋への移動に伴う中断、一部の会議室でのネットワーク接続の問題、コンピュータやプロジェクターの品質や使い勝手の違いなどの、運営や設備の問題でした。また、姿勢の悪さから腰や首が痛くなったり、テーブルや椅子の向きがテーブルの端に投影されたスクリーンとの関係が悪かったりと、人間工学的な問題を抱えていることもわかりました。また、低解像度や質の悪いプロジェクタでコンピュータの画面を目を細めて見ると、頭痛がすることもありました。
 
 
-After the third or fourth week we were able to find a “permanent” work area we could use every day for a few months and had started to solidify some of our work practices. We were discovering ways to deal with the ergonomic problems as well, which I’ll share in a following section. \
+<!-- After the third or fourth week we were able to find a “permanent” work area we could use every day for a few months and had started to solidify some of our work practices. We were discovering ways to deal with the ergonomic problems as well, which I’ll share in a following section. \ -->
 3～4週目には、数ヶ月間毎日使える「常設」の作業場を見つけることができ、仕事のやり方もある程度固まり始めていました。人間工学的な問題にも対処する方法を発見していましたが、それは次のセクションで紹介します。
 
 
-We have successfully delivered many projects and enhancements over the last 3 years since we started doing “Mob Programming”. While we now have a permanent work area and have made many incremental improvements to the way we work, we have continued to follow the basic pattern of collaborating as a whole team working at a single computer. \
+<!-- We have successfully delivered many projects and enhancements over the last 3 years since we started doing “Mob Programming”. While we now have a permanent work area and have made many incremental improvements to the way we work, we have continued to follow the basic pattern of collaborating as a whole team working at a single computer. \ -->
 私たちは、「モブプログラミング」を始めてから3年間、多くのプロジェクトや機能拡張を成功させてきました。今では常設の作業スペースを確保し、仕事の進め方を少しずつ改善してきましたが、チーム全体で1台のコンピュータで作業をするという基本的なパターンを守り続けてきました。
 
 
