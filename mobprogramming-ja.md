@@ -96,7 +96,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- ## 3. WHY WE WORK THIS WAY -->
-## 3. なぜこのような働き方をするのか**
+## 3. なぜこのような働き方をするのか
 
 
 <!-- We work this way because the team decided to work this way. This is an important concept for us: The team doing the work can best determine how to do that work. We were not told to work this way. We have the freedom and responsibility to decide how we want to work. Having discovered that continuously working and collaborating together all day, every day, was working well for us continuing to do so was the natural next step. We continue to pay attention to what is working, and we frequently “tune and adjust” as needed. Our mantra is to “always turn up the good” [TURN]. \ -->
@@ -178,7 +178,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- ## 5. A FEW IMPORTANT WORK PRACTICES -->
-## 5. 作業に関するいくつかの重要なプラクティス**
+## 5. 作業に関するいくつかの重要なプラクティス
 
 
 <!-- With Mob Programming everyone is in almost constant communication with everyone else. While this brings a lot of value, it is also a relatively foreign way to work for many doing software development. We’ve found that we need a few simple principles and practices that allow us to keep focused and collaborating nicely throughout the day. Our goal is for everyone to be able to contribute or be learning at the level they feel is most useful to both the team and to themselves. We actually think of learning as a type of contribution to the team. \ -->
