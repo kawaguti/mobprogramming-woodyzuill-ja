@@ -410,7 +410,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- There are a number of teams around the world that are experimenting with Mob Programming, and some teams we have heard from are working this way on a daily basis, or several times a week. We have often heard from people who use this style of work when they have an emergency or particularly hard problem to solve, and I’ve included links below to a few articles others have written about their experiences. [LINKS] \ -->
-世界中でモブプログラミングを試しているチームがいくつもかありますが、こうした私たちが聞いたチームの中には、日常的に、あるいは週に数回このスタイルで仕事をしているチームもあると聞きます。ります。緊急時や特に難しい問題が発生したときにこのスタイルで仕事をするというしている人たちの話はよく聞かれます。をよく聞いてきました。リンク集他の方が自身の経験について書かれた記事へのリンクを置いておきます。[LINKS]
+世界中でモブプログラミングを試しているチームがいくつもかありますが、こうした私たちが聞いたチームの中には、日常的に、あるいは週に数回このスタイルで仕事をしているチームもあると聞きます。緊急だったり、特に難しい問題が発生したときにモブスタイルで仕事をするという人たちの話もよく聞きます。他の方の経験が書かれた記事へのリンクを添付しておきます。[LINKS]
 
 
 <!-- One concept I feel is important is that the team must decide if this appropriate for them. It would likely not be appropriate to mandate that anyone must work this way. \ -->
