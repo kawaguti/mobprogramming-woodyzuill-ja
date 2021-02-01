@@ -418,7 +418,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- For those wishing to try Mob Programming, I would suggest that having previous knowledge and experience with pair programming, one-­‐piece flow, test-­‐driven development, continuous delivery/deployment, retrospectives, Coding Dojos, Clean Code, and other Agile and Lean concepts are all useful. However, anything you need can be learned in the doing along the way, as long as you dedicate yourselves to treat each other with kindness, consideration, and respect. \ -->
-モブプログラミングに挑戦したい人には、ペアプログラミング、一個流しワンピースフロー、テスト駆動開発、継続的デリバリー/デプロイメント、レトロスペクティブ、コーディング道場、クリーンコード、その他のアジャイルやリーンの概念についての知識と経験があると役に立つと思います。しかし、親切、思いやり、敬意を持ってお互いに接することに専念していれば、必要なことは何でも途中で学ぶことができます。
+モブプログラミングに挑戦したい人には、ペアプログラミング、一個流し、テスト駆動開発、継続的デリバリー/デプロイメント、レトロスペクティブ、コーディング道場、クリーンコード、その他のアジャイルやリーンの概念についての知識と経験があると役に立つと思います。しかし、親切、思いやり、敬意を持ってお互いに接することに専念していれば、必要なことは何でも途中で学ぶことができます。
 
 
 <!-- We encourage everyone to get good at holding meaningful retrospectives, paying attention to what is working for you, and experimenting with ways to “turn up the good.” If you decide to try Mob Programming, I’d love to hear from you about your experiences. Also, if you would like some help just let me know – I’d be happy to help any way I can. \ -->
