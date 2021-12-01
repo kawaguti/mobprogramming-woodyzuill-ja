@@ -422,7 +422,7 @@ Translated by Yasunobu Kawaguchi, Ikuo Suyama and Ken Matsumoto
 
 
 <!-- We encourage everyone to get good at holding meaningful retrospectives, paying attention to what is working for you, and experimenting with ways to “turn up the good.” If you decide to try Mob Programming, I’d love to hear from you about your experiences. Also, if you would like some help just let me know – I’d be happy to help any way I can. \ -->
-私たちは誰もが有意義なレトロスペクティブを開催することを奨励しています。自分にとってうまく行っているのために機能しているものに注意を払い、「良さを高める」方法を試してみてください。 "良いものを上げる "方法を 試してみてください もしあなたがモブプログラミングをやってみようと思うなら、やってみた経験をお伝えいただけると嬉しいです。聞かせていただけたら嬉しいです。もしあなたがモブプログラミングをやってみようと思ったら、あなたの経験をぜひ聞いてみたいと思います。また、もし何か助けが必要であれば、私に知らせてください。何かできることがあれば嬉しいです。
+私たちは誰もが有意義なレトロスペクティブを開催することを奨励しています。自分にとってうまく行っていることに注意を払い、「良さを高める」方法を試してみてください。もしあなたがモブプログラミングをやってみようと思ったら、あなたの経験をぜひ聞いてみたいと思います。また、もし何か助けが必要であれば、私に知らせてください。何かできることがあれば嬉しいです。
 
 
 <!-- ## 15. Acknowledgements \ -->
